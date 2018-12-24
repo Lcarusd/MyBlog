@@ -23,6 +23,28 @@
 + 部署简单，不依赖 Tomcat
 + 无需数据库，内嵌 Sqlite
 
+## ./tale-cli工具使用
+
+```sh
+» ./tale-cli
+
+Tale 博客程序帮助工具
+
+Github: https://github.com/otale/tale
+
+Usage:
+	tale-cli command [arguments]
+
+Available commands:
+backup   备份 Tale 博客
+log      查看 Tale 博客日志
+restart  重启 Tale 博客
+start    启动 Tale 博客
+status   查看 Tale 博客运行状态
+stop     停止 Tale 博客
+upgrade  升级 Tale 博客
+``` 
+
 ## 界面预览
 
 ![tale1.png](https://ooo.0o0.ooo/2017/03/04/58ba99604e997.png)
